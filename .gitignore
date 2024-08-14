@@ -1,0 +1,74 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Ignore IDE directories and files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Ignore temporary files
+*.swp
+*~
+*.tmp
+*.temp
+
+# Ignore binary files
+*.out
+*.exe
+*.dll
+
+# Ignore generated files
+gen/
+
+# Ignore test results
+test-output/
+
+# Ignore coverage reports
+*.cover
+*.lcov
+
+# Ignore packaged files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore other binary files
+*.bin
+
+# Ignore caches
+.cache/
+.cache-loader/
